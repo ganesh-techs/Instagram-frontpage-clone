@@ -1,0 +1,297 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: white;
+    font-family: "Noto Sans", sans-serif;
+}
+#on-screen{
+    position: absolute;
+    left: 490px;
+    top: 34px;
+    border-radius: 20px;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.6rem;
+}
+.logo{
+    height: 70px;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+#f-box{
+    border: solid 0.1px rgba(56, 55, 55, 0.363);
+    width: 350px;
+    height: fit-content;
+}
+input{
+    background-color: rgba(245, 245, 245, 0.543);
+    height: 30px;
+    width: 90%;
+    padding: 3px 8px;
+    margin: 3px;
+    border: 0.8px solid rgba(0, 0, 0, 0.164);
+    font-size: 11px;
+}
+#input-content{
+    margin:1.5rem;
+}
+#log-in-button{
+    width: 98%;
+    height: 33px;
+    border-radius: 8px;
+    color: white;
+    font-weight:700;
+    background-color: rgb(6, 176, 243);
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 13px;
+}
+#underscore{
+    color: rgba(0, 0, 0, 0.211);
+    padding-left: 20px;
+}
+#or{
+    margin: 13px;
+    font-weight: 700;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.564);
+}
+a{
+    text-decoration: none;
+}
+#facebook {
+    display: flex;
+    justify-content: center;
+    margin: 35px;
+    font-size: 14px;
+    font-weight: 600;
+    color: rgba(36, 36, 106, 0.782);
+}
+#facebook img{
+    height: 17px;
+    width: 17px;
+    margin-right: 6px;
+}
+.f-password {
+    color: rgba(14, 13, 13, 0.777);
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+#create{
+    border: solid 0.1px rgba(56, 55, 55, 0.363);
+    height: 60px;
+    margin-top: 10px;
+}
+#create p{
+    text-align: center;
+    margin-top: 18px;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.791);
+}
+#create p a{
+    color: rgb(6, 176, 243);
+    font-weight: 600;
+    margin-left: 5px;
+}
+#app-link{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+#app-link p{
+    font-size: 13px;
+}
+#google-play{
+    height: 50px;
+    width: 150px;
+    margin-bottom: 5px;}
+#get-it-microsoft{
+    height: 60px;
+    width: 185px;    
+    padding: 0px;
+}
+#get{
+    text-align: center;
+}
+#footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    left: 25%;
+    margin-bottom: 20px;
+}
+#footer,#footer a{
+    font-size: 11px;
+    padding: 6px;  
+    color: rgba(0, 0, 0, 0.774);
+}
+select{
+    border: none;
+    font-size: 11px;
+    
+}
+#last{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+#s-logo{
+    margin-top: 15px;
+    margin-left: 70px;
+    height: 70px;
+}
+#f-box #top-p{
+    color: rgba(57, 56, 56, 0.774);
+    text-align: center;
+    padding: 10px 40px 0px;
+    font-weight: 600;
+}
+#facebook-s{
+    margin-left: 2rem ;
+    margin-top: 20px;
+    height: 35px;
+    width: 80%;
+    background-color: rgb(6, 176, 243);
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+}
+
+.fa-square-facebook{
+    /* position: absolute; */
+    margin-left: -240px;
+    margin-top: 40px;
+}
+#f-box{
+    display: flex;
+    flex-direction: column;
+    padding: 20px 0px 0px 20px;
+}
+#underscore-s{
+    color: rgba(0, 0, 0, 0.211);
+    margin-left: 40px;
+}
+#or-s{
+    margin: 10px;
+    color: rgba(0, 0, 0, 0.73);
+}
+#input-data{
+    padding: 25px;
+}
+.Learn{
+    font-size: 11px; 
+    text-align: center;
+    padding: 0px 25px 8px;
+    color: rgba(0, 0, 0, 0.636);
+}
+.Learn a{
+    color: rgb(81, 81, 167);
+}
+#sign-up{
+    padding: 4px;
+    margin: 14px 26px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(6, 176, 243);
+    border: none;
+}
+.login-s{
+    text-align: center;
+    margin-top: 10px;
+    border: solid 0.1px rgba(56, 55, 55, 0.363);
+    padding: 20px;
+}
+.login-s div p{
+    font-size: 13px;
+}
+#footer-s{
+    position: absolute;
+    font-size: 11px;
+    padding: 30px;
+    color: rgba(0, 0, 0, 0.774);
+    top:50rem;
+    left:25rem;
+}
+#lock{
+    display: flex;
+    justify-content: center;
+    
+}
+#p-box{
+    height: fit-content;
+    border: 1px solid rgba(0, 0, 0, 0.56);  
+    width: 350px;
+    margin-top: 4rem; 
+}
+#lock img{
+    height: 100px;
+    width: 100px;
+    margin-top: 25px;
+    margin-left: 120px;
+    
+}
+#trouble{
+    color: black;
+    text-align: center;
+    font-weight: 600;
+}
+#enter{
+    font-size: 13px;
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.647);
+}
+#input-p{
+    padding: 20px;
+    padding-top: 6px;
+    border-radius: 10px;
+}
+#input-p input{
+    border-radius: 8px;
+}
+#button-send{
+    display: flex;
+    justify-content: center;
+}
+#send-p{
+    padding: 5px; 
+    width: 85%;
+    border-radius: 8px;
+    background-color:rgb(6, 176, 243) ;
+    border: none;
+    color: white;
+}
+#Reset{
+    font-size: 12px;
+    color: rgb(6, 6, 86);
+    text-align: center;
+    padding-top: 8px;
+
+}
+#underscore-p{
+    text-align: center;
+    padding-top: 20px;
+}
+#new{
+    text-align: center;
+    a{
+        color: black;
+        font-weight: 600;
+        font-size: 14px;
+    }
+}
+#back{
+    width: 100%;
+    color: black;
+    font-weight: 600;
+    margin-top: 50px;
+    padding: 13px;
+    background-color: rgba(245, 245, 245, 0.695);
+    border: 1px solid rgba(0, 0, 0, 0.56);  
+}
